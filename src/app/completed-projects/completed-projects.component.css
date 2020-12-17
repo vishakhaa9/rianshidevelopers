@@ -1,0 +1,139 @@
+  /* completed Style */
+  
+  #completed {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #completed .section-heading {
+    margin-right: 20%;
+  }
+  
+  #completed .content-section {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #completed .owl-dots {
+    margin-top: 40px;
+  }
+  
+  #completed .owl-dots .owl-dot span  {
+    width: 12px;
+    height: 12px;
+    background-color: #cdcdcd!important;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 3px;
+  }
+  
+  #completed .owl-dots .active span {
+    background-color: #45489a!important;
+  }
+  
+  #completed .owl-dots button {
+    outline: none;
+  }
+  
+  #completed .owl-nav {
+    position: absolute;
+    display: inline-block;
+    top: -110px;
+    right: 0;
+  }
+  
+  #completed .owl-nav button:focus {
+    outline: none;
+  }
+  
+  #completed .owl-nav .owl-prev span {
+    margin-right: 10px;
+  }
+  
+  #completed .owl-nav .owl-next span, #completed .owl-nav .owl-prev span {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    background-color: #eee;
+    color: #232323;
+    font-size: 42px;
+    transition: all 0.5s;
+  }
+  
+  #completed .owl-nav span:hover {
+    background-color: #45489a;
+    color: #fff;
+  }
+  
+  #completed .item {
+    text-align: left;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #completed .item .image {
+    position: relative;
+  }
+  
+  #completed .item .image img {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #completed .item .image .completed-button a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(69,72,154, 0.9);
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 9;
+    bottom: -44px;
+    opacity: 0;
+  }
+  
+  #completed .item:hover .completed-button a {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  #completed .item .text-content {
+    padding-top: 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #completed .item .text-content h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #232323;
+    letter-spacing: 0.5px;
+  }
+  
+  #completed .item .text-content span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7a7a7a;
+    letter-spacing: 0.5px;
+    margin-bottom: 12.5px;
+  }
+  
+  
+  
